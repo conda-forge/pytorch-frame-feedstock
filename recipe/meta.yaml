@@ -1,4 +1,4 @@
-{% set version = "0.2.5" %}
+{% set version = "0.3.0" %}
 
 package:
   name: pytorch-frame
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytorch-frame/pytorch_frame-{{ version }}.tar.gz
-  sha256: 927a322a1c8cd4af386e124aa0932f2a0aba415c8a1f593c2ed605e08a9f65d5
+  sha256: 412b42002e1a21a09fc8b0c6e4f0d048bd4e5ebef2f7139bbbbae82d81040152
 
 build:
   noarch: python
